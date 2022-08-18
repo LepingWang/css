@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.table1{width: 100%;background-color: steelblue;}
+		a{
+			text-decoration: none;
+			color: white;
+			
+		}
+		td{
+			vertical-align: bottom;
+		}
+		a:hover{text-decoration: underline;}
+		.drop-content{
+			display: none;
+			position: absolute;
+			background-color: steelblue;
+			width:200px ;
+		}
+		.drop-button{width: 200px;}
+		.drop-button:hover .drop-content{display: block;}
+		#search_button{
+			position: absolute;
+			right: 30px;
+			top:20px;
+			width: 26px;
+			height: 26px;
+			margin: 0;
+			padding: 0;
+			background:url("https://cdn-icons-png.flaticon.com/512/71/71403.png") no-repeat;
+			background-size: 25px 25px;
+			background-color: gray;
+		}
+		
+		#search-bar{
+			position: absolute;
+			right: 55px;
+			top:20px;
+			width: 100px;
+			height: 20px;
+			}
+		ul{list-style: none;}
+		
+		.footer{
+			background-color: rgb(83, 83, 83);
+			width: 100%;
+			color: white;		
+			margin: 0;
+			height: 200px;
+			}
+		#address{color: rgb(158, 158, 158);}
+		#sec-1{color: rgb(158, 158, 158);}
+		section{margin:auto;}
+		.black-footer{background-color: rgb(9, 9, 9);color:white;height: 40px;}
+
+		iframe{
+			position: absolute;
+			right: 30px;
+			top: 420px;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<table class="table1">
+		<tr>
+			<td rowspan="2"><a href="https://antra.com/"><img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" width="400px"></a></td>
+			<td colspan="6"><form ><input type="text" id="search-bar" value="search"><input type="button" id="search_button"></form></td>
+		</tr>
+		<tr>
+			<td><a href="https://antra.com/">news</a></td>
+			<td class="drop-button"><a href="https://antra.com/">about the university</a><div class="drop-content"><ul><li><a href="https://www.google.com/">a</a></li><li><a href="https://www.google.com/">b</a></li><li><a href="https://www.google.com/">c</a></li></ul></div></td>
+			<td class="drop-button"><a href="https://antra.com/">training courses</a><div class="drop-content"><ul><li><a href="https://www.google.com/">program a</a></li><li><a href="https://www.google.com/">program b</a></li><li><a href="https://www.google.com/">program c</a></li></ul></div></td>
+			<td><a href="https://antra.com/">for company</a></td>
+			<td><a href="https://antra.com/">forum</a></td>
+			<td><a href="https://antra.com/">contact</a></td>
+		</tr>
+		
+	</table>
+<br><br><br>
+	<div >
+		<table class="footer">
+			<tr class="title-row" align="center" style="font-size: larger;">
+				<td id="address">Corporate Office</th>
+				<td>Services</th>
+				<td>Resources</th>
+				<td>Our Locations</th>
+			</tr>
+			<tr text_align="left">
+				<td><section id="sec-1" ><ul id="ul1"><li>21355 Ridgetop Circle</li><li>Suite #300</li><li>Dulles, VA 20166</li><li>Ph : 703 994 4545</li><li>email : info@antra.com</li></ul></section></td>
+
+				<td><section id="sec-2"><ul id="ul2"><li><a href="https://antra.com/">Professional Services</a></li><li><a href="https://antra.com/">Blog</a></li><li><a href="https://antra.com/">Contact Us</a></li><li><a href="https://antra.com/">About Us</a></li></ul></section></td>
+				<td><section id="sec-3"><ul id="ul2"><li><a href="https://antra.com/">Case Studies</a></li><li><a href="https://antra.com/">White Papers</a></li><li><a href="https://antra.com/">Agile Transformation</a></li><li><a href="https://antra.com/">Top Trend</a></li></ul></section></td>
+				<td><section id="sec-4"><img src="https://antra.com/wp-content/uploads/2022/04/world-map-img-foot-1-300x155.png" alt="loc-map" width="60%"></section></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="black-footer">© 2022 Antra, Inc. , A TechWish Company All Rights Reserved.<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=20px&layout=button&action=like&size=small&share=true&height=65&appId" width="20px" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+		
+	</div>
+	<br><br><br>
+	<div id="news">
+		<div id="news-bgbar">
+			<img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" height="90%">
+		</div>
+		
+		<div class="article-bg">
+			<header>News</header>
+			<section class="float-article" id="ar1">
+				<header><a href="https://antra.com/" class="title">Article Title 1</a></header>
+				<div class="dates">mm/dd/yyyy</div>
+				<div class="publisher">published by:coco chanel</div>
+				<img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" width="80%">
+				<div class="description">news description</div>
+				<div class="tag">tag: keywords keywords keywords </div>
+			</section>
+			<section class="float-article" id="ar2">
+				<header><a href="https://antra.com/" class="title">Article Title 2</a></header>
+				<div class="dates">mm/dd/yyyy</div>
+				<div class="publisher">published by:coco chanel</div>
+				<img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" width="80%">
+				<div class="description">news description</div>
+				<div class="tag">tag: keywords keywords keywords </div>
+			</section>
+			<section class="float-article" id="ar3">
+				<header><a href="https://antra.com/" class="title">Article Title 3</a></header>
+				<div class="dates">mm/dd/yyyy</div>
+				<div class="publisher">published by:coco chanel</div>
+				<img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" width="80%">
+				<div class="description">news description</div>
+				<div class="tag">tag: keywords keywords keywords </div>
+			</section>
+		</div>
+
+
+		
+		<div><ul class="page"><li><button>1</button><button>2</button><button>3</button><button>4</button></li></ul></div>
+	</div>
+	<br><br><br>
+	
+	<div class="website">
+		<div class="imgbg-web">
+			<header class="title-web">In the twilight of one's life!</header>
+
+		</div>
+		<ul class="ul-nav"><li><a class="active" href="https://antra.com/">HOME</a></li><li><a href="https://antra.com/">ABOUT</a></li><li><a href="https://antra.com/">BLOG</a></li><li><a href="https://antra.com/">CONTACT</a></li><li><a href="https://antra.com/">GALLARY</a></li></ul>
+
+		<div class="main-web">
+			<div class="left-main">
+				<div id="welcome-web" class="sec-web">
+					<header>WELCOME TO HOMEPAGE</header>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo vero vitae aut eos, veniam molestiae culpa perferendis minima eaque, a velit ipsa quasi reprehenderit saepe nesciunt odit nobis suscipit doloremque?</p>
+				</div>
+				<div id="product" class="sec-web">
+					<header>OUR FREE PRODUCT</header>
+					<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="image"><head class="sub-title">Just try to catch me</head><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo vero vitae aut eos, veniam molestiae culpa perferendis minima eaque, a velit ipsa quasi reprehenderit saepe nesciunt odit nobis suscipit doloremque?</p><br><br><br><br><br><br><br><br>
+					<img src="https://media.istockphoto.com/photos/businessman-using-a-computer-to-document-management-concept-online-picture-id1335050732?b=1&k=20&m=1335050732&s=170667a&w=0&h=ZixERs8xGjy-XF8vYmf60sBwEwE-p3omcoffv8PWMBQ=" alt="image"><head class="sub-title">Just try to catch me</head><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo vero vitae aut eos, veniam molestiae culpa perferendis minima eaque, a velit ipsa quasi reprehenderit saepe nesciunt odit nobis suscipit doloremque?</p>
+				</div>
+			</div>
+
+			<div class="right-main">
+				<div id="news-web" class="sec-web">
+					<header>NEWS</header>
+					<p class="date">Month dd/yyyy</p>
+					<p class="info">something</p>
+					<p class="link"><a href="https://www.google.com/">click</a></p>
+					<p class="date">Month dd/yyyy</p>
+					<p class="info">something</p>
+					<p class="link"><a href="https://www.google.com/">click</a></p>
+					<p class="date">Month dd/yyyy</p>
+					<p class="info">something</p>
+					<p class="link"><a href="https://www.google.com/">click</a></p>
+				</div>
+				<div id="msg-web" class="sec-web">
+					<header>MASSAGE</header>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo vero vitae aut eos, veniam molestiae culpa perferendis minima eaque, a velit ipsa quasi reprehenderit saepe nesciunt odit nobis suscipit doloremque?</p>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="foot-web"><p>copyright Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+	</div>
+</body>
+</html>

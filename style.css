@@ -1,0 +1,147 @@
+body{
+	padding: 0;
+}
+#news{
+	background-color: lightgrey;
+	height: 400px;
+}
+#news-bgbar{height:60px;background-color:navy;}
+.article-bg{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.float-article{
+	display: inline-block;
+	width: 25%;
+	box-shadow: 2px 4px gray;
+	background-color: whitesmoke;
+	margin: auto;
+}
+
+
+
+.title {
+	font-size: larger;
+	color:navy;
+}
+.float-article header{
+	text-align: center;
+}
+
+.float-article .dates{
+	font-size: smaller;
+	color: black;
+	text-align: right;
+}
+.float-article .publisher{
+	text-align: left;
+	color: black;
+}
+.float-article .description{
+	text-align: center;
+}
+.float-article .tags{
+	font-weight: bold;
+}
+.page{
+	display: inline-block;
+	width: 100%;
+}
+.page .button{
+	background-color: navy;
+
+}
+.website{
+	font-family: Arial;
+	background-color: lightgrey;
+	padding: 0;
+}
+.imgbg-web{
+	background-image: url("http://res-3.cloudinary.com/fieldfisher/image/upload/f_jpg,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05");
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+}
+.title-web{
+	color: white;
+	font-size: 200%;
+	font-weight: bold;
+	position: relative;
+	left: 60%;
+	top: 80%;
+	width: 40%;
+}
+
+.ul-nav{
+	list-style-type: none;
+	background-color: rgb(79, 104, 206);
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+.ul-nav li{
+	float: left;
+}
+.ul-nav li a{
+	display: block;
+	font-size: 200%;
+	padding:10px 10px;
+	color:rgb(246, 87, 114);
+	height: 100%;
+}
+.active{
+	background-color: white;
+}
+.ul-nav li:hover{
+	background-color: lightsteelblue;
+}
+.main-web{
+	table-layout: auto;
+	height: 950px;
+}
+.left-main{
+	padding:20px;
+	width: 60%;
+	float: left;
+
+}
+.right-main{
+	padding:20px;
+	width: 30%;
+	float:left;
+
+}
+.sec-web{
+	border-radius: 25px;
+	border: 2px solid rgb(79, 104, 206);
+	padding: 20px;
+
+}
+.sec-web header{
+	font-size: 200%;
+	color: rgb(246, 87, 114);
+}
+.sec-web img{
+	width: 40%;
+}
+.foot-web{
+	background-color: rgb(59, 59, 84);
+	height: 200px;
+
+
+}
+.foot-web > p{
+	text-align: center;
+	margin-bottom: 5px;
+	color: whitesmoke;
+}
+.sec-web img{
+	float: left;
+	margin-left: 10px;
+}
+#product{
+	height:550px;
+}
